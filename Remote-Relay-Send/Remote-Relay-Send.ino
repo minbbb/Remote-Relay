@@ -125,7 +125,7 @@ void loop() {
 }
 
 void displayInfo() {
-  unsigned int x, y;
+  int x, y;
   unsigned int width, height;
   String printShotDelay;
   if (radioData.shotDelay < 10) {
